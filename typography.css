@@ -16,8 +16,9 @@
 
 
 
+
 *:not([class*='icon']):not(.fa):not(i) {
-    font-family: 'wtiransans';
+    font-family: 'wtiransans' !important;
     letter-spacing: normal !important;
 }
 
@@ -25,21 +26,21 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, a,section, mark,
 ol, ul, li, form, table, caption, tbody, tfoot, thead, tr, th, td, article,
 aside, details, figcaption, footer, header, hgroup, menu, nav, output,
 input[type="text"] , input[type="textarea"] , input[type="submit"] {
-    font-family: 'wtiransans';
+    font-family: 'wtiransans' !important;
     letter-spacing: normal !important;
 }
 a , span {
-    font-family: 'wtiransans';
+    font-family: 'wtiransans' !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'wtiransans';
+    font-family: 'wtiransans' !important;
     direction: rtl !important;
     letter-spacing: normal !important;
 }
 
 p {
-    font-family: 'wtiransans';
+    font-family: 'wtiransans' !important;
     letter-spacing: normal !important;
     direction: rtl !important;
     line-height: 20px !important;
@@ -51,3 +52,5 @@ p {
     display: inline-block;
     direction: ltr;
 }
+
+
