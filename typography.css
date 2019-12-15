@@ -15,6 +15,44 @@
 }
 
 
+/* or you can use this one for fonts: */
+@font-face {
+  font-family: "IRANSans";
+  src: url("./assets/IRANSansSmall.eot"); /* IE9 Compat Modes */
+  src: url("./assets/IRANSansSmall.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/IRANSansSmall.otf") format("opentype"),
+    /* Open Type Font */ url("./assets/IRANSansSmall.svg") format("svg"),
+    /* Legacy iOS */ url("./assets/IRANSansSmall.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/IRANSansSmall.woff") format("woff"),
+    /* Modern Browsers */ url("./assets/IRANSansSmall.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IRANSans";
+  src: url("./assets/fonts/IRANSansSmallBold.eot"); /* IE9 Compat Modes */
+  src: url("./assets/fonts/IRANSansSmallBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/IRANSansSmallBold.otf") format("opentype"),
+    /* Open Type Font */ url("./assets/fonts/IRANSansSmallBold.svg") format("svg"),
+    /* Legacy iOS */ url("./assets/fonts/IRANSansSmallBold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/fonts/IRANSansSmallBold.woff") format("woff"),
+    /* Modern Browsers */ url("./assets/fonts/IRANSansSmallBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IRANSans";
+  src: url("./assets/fonts/IRANSansSmallLight.eot"); /* IE9 Compat Modes */
+  src: url("./assets/fonts/IRANSansSmallLight.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/IRANSansSmallLight.otf") format("opentype"),
+    /* Open Type Font */ url("./assets/fonts/IRANSansSmallLight.svg") format("svg"),
+    /* Legacy iOS */ url("./assets/fonts/IRANSansSmallLight.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/fonts/IRANSansSmallLight.woff") format("woff"),
+    /* Modern Browsers */ url("./assets/fonts/IRANSansSmallLight.woff2") format("woff2");
+  font-weight: lighter;
+  font-style: normal;
+}
+/* Font face finished */
 
 
 *:not([class*='icon']):not(.fa):not(i) {
